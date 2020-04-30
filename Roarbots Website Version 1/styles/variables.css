@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,900&display=swap');
+/*
+* STANDARD VARIABLES
+*/
+
+:root {
+    /* colors */
+    --blue-color: #47a6e6;
+    --navy-color: #3379B7;
+    --gold-color: #E1C059;
+    --light-gray-color: #eff2f6;
+    --gray-color: #577590; /* 6d6e70 */
+    --darker-gray-color:#363737;
+    --darkest-gray-color: #1c1c1c;
+    --white-color: #ffffff;
+    
+    --background-color: var(--white-color);
+    
+    /* colors that change based on container color */
+    --local-main-text-color:var(--gray-color);
+    --local-title-text-color:var(--blue-color);
+    --local-hover-bg-color:var(--light-gray-color);
+    --local-hover-text-color:var(--gray-color);
+    
+    /* fonts */
+    --main-font-family: 'Montserrat', sans-serif;
+    --title-font-family: 'Montserrat', sans-serif;
+    
+    /* text sizes */
+    --xlarge-font-size: 7rem;
+    --large-font-size: 5rem;
+    --medium-font-size: 2rem;
+    --small-font-size: 1.225rem;
+    --tiny-font-size: 1rem;
+    
+    /* line height */
+    --main-line-height: 1.5;
+    --large-line-height: 3;
+    
+    /* border radius */
+    --border-radius:1.5vmax;
+    
+    /* transitions */
+    --highlight-brightness:110%;
+    --transition-time:0.25s;
+    --long-transition-time:0.75s;
+
+}
+
+/*
+* RESPONSIVE MEDIA QUERY
+*/
+@media screen and (max-width: 1000px) { /* Phones */
+    :root {
+        /* text sizes */
+        --xlarge-font-size: 3rem;
+        --large-font-size: 2rem;
+        --medium-font-size: 1.4rem;
+        --small-font-size: 1rem;
+        --tiny-font-size: 0.85rem;
+    }
+}
